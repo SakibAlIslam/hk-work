@@ -25,6 +25,11 @@ Button.MuiButton-contained {
   background-color: #3f00dc;
 }
 
+.infoCard {
+  min-width: 450px;
+  padding: 24px;
+}
+
 .mdl-demo .dropdown-trigger li {
   list-style: none;
 }
@@ -99,4 +104,12 @@ Button.MuiButton-contained {
   border-top-style: none;
   border-right-style: none;
   border-color: #2196f3;
+}
+
+@media screen and (max-width: 680px) {
+  .infoCard {
+    margin: 0 24px;
+    min-width: 260px;
+    padding: 24px;
+  }
 }

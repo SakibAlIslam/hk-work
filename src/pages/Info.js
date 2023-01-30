@@ -53,7 +53,7 @@ const Info = () => {
 
   return (
     <Box sx={{ display: "flex", justifyContent: "center", marginTop: "20vh" }}>
-      <Card sx={{ minWidth: "450px", padding: "24px" }}>
+      <Card className="infoCard">
         <form
           onSubmit={formik.handleSubmit}
           style={{ display: "flex", flexDirection: "column" }}
