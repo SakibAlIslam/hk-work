@@ -1,0 +1,102 @@
+[
+  {
+    "label": "Manufacturing",
+    "id": "1",
+    "value": "1",
+    "tagClassName": "special",
+    "children": [
+      {
+        "label": "Construction materials"
+      },
+      {
+        "label": "Electronics and Optics"
+      },
+      {
+        "label": "Food and Beverage",
+        "children": [
+          {
+            "label": "Bakery & confectionery products"
+          },
+          {
+            "label": "Beverages"
+          },
+          {
+            "label": "Fish & fish products"
+          },
+          {
+            "label": "Meat & meat products"
+          },
+          {
+            "label": "Milk & dairy products"
+          }
+        ]
+      },
+      {
+        "label": "Furniture",
+        "children": [
+          {
+            "label": "Bathroom/sauna"
+          },
+          {
+            "label": "Bedroom"
+          },
+          {
+            "label": "Childrenâ€™s room"
+          },
+          {
+            "label": "Kitchen"
+          }
+        ]
+      },
+      {
+        "label": "Plastic and Rubber",
+        "children": [
+          {
+            "label": "Packaging"
+          },
+          {
+            "label": "Plastic goods"
+          },
+          {
+            "label": "Plastic processing technology",
+            "children": [
+              {
+                "label": "Blowing"
+              },
+              {
+                "label": "Moulding"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Service",
+    "value":"2",
+    "children": [
+      {
+        "label": "Business services"
+      },
+      {
+        "label": "Engineering"
+      },
+      {
+        "label": "Information Technology and Telecommunications",
+        "children": [
+          {
+            "label": "Data processing, Web portals, E-marketing"
+          },
+          {
+            "label":
+              "Programming, Consultancy"
+          },
+          {
+            "label": "Software, Hardware"
+          }
+        ]
+      }
+    ]
+  }
+]
